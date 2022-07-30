@@ -10,7 +10,7 @@ jobs:
   # This workflow contains a single job called "build"
   run:
     # The type of runner that the job will run on
-    runs-on: ubuntu-22.04
+    runs-on: windows-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -19,5 +19,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run command
-        run: bash computer3.bat
+        run: computer3.bat
 
