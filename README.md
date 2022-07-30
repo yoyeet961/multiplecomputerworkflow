@@ -1,2 +1,3 @@
-# multiplecomputerworkflow
-run commands from multiple computers
+# multiple computer workflow
+its simple:
+  run commands from multiple computers (vms)
