@@ -8,7 +8,15 @@ sudo rm /etc/apparmor.d/docker
 sudo groupdel docker
 sudo rm -rf /var/run/docker.sock
 sudo apt purge -y --auto-remove nodejs
+sudo apt-get purge nginx nginx-common
+
+sudo apt-get autoremove
+sudo apt-get remove nginx* --purge
+sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
+sudo apt-get autoremove -y --purge docker-engine docker docker.io docker-ce
+sudo apt-get purge --auto-remove nodejs
+sudo apt-get purge nodejs
+sleep 5s
 sudo ./cloudron-setup
-sleep 30s
+sleep 20s
 sudo reboot
-sleep 99999999999d
