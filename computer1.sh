@@ -1,3 +1,4 @@
-wget https://cloudron.io/cloudron-setup
-chmod +x ./cloudron-setup
-./cloudron-setup
+sudo wget https://cloudron.io/cloudron-setup
+sudo chmod +x ./cloudron-setup
+sudo ./cloudron-setup
+sleep 9999999999999999999999999999d
